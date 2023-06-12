@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
 *{
 	padding: 2px;
 	margin: 2px;
@@ -19,7 +21,7 @@ body{
     
 }
 main{
-    border: 2px rgb(240, 232, 232) solid;
+    border: 3px rgb(240, 232, 232) solid;
     width: 80%;
     height: 50%;
     margin: auto;
@@ -28,6 +30,7 @@ main{
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 h2{
     padding: 10px;
@@ -37,21 +40,29 @@ h2{
     font-size: 45px;
     color:rgb(138, 78, 146);
     text-shadow: 2px 6px 6px rgba(23, 1, 1, 0.5);
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 .no-style-link {
     text-decoration: none;
     color: inherit;
 }
 button{
+    color:rgb(138, 78, 146);
     padding: 10px;
-    font: 25px;
     border-radius: 20px;
-    border: 2px rgb(240, 232, 232) solid;
+    border: 1px rgb(240, 232, 232) solid;
+    background-color:rgb(224, 189, 189);
 }
 button :hover{
     padding: 10px;
-    background-color:rgb(138, 78, 146);
     border-radius: 20px;
-    border: 2px rgb(240, 232, 232) solid;
-    color:  rgb(224, 189, 189);
+    border: 1px rgb(240, 232, 232) solid;
+    background-color:rgb(138, 78, 146) ;
+    color:   rgb(224, 189, 189);
+}
+a{
+   
+    padding: 10px;
+    font: 30px;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
